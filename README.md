@@ -16,7 +16,7 @@
 
 
 ![Alt Text](./api//images/ScreenShots/Register.png)
-![Alt Text](./api//images/ScreenShots/update.png)
+
 
 ## Author
 - Eyob Kefale
