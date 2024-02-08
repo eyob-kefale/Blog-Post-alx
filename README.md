@@ -1,8 +1,8 @@
-# Blog Post Web Service Project
+# Blog Post for alx project
 
 ## Overview
 
-This project was developed as the final project for the Web Service course. The goal of the project is to showcase the integration of Node.js and React.js to create a web service.
+
 
 ## Technologies Used
 
@@ -11,14 +11,13 @@ This project was developed as the final project for the Web Service course. The 
 
 ## Screenshots
 
-![Alt Text](./api/images/ScreenShots/homePage.png)
+
 ![Alt Text](./api//images/ScreenShots/LogIn.png)
-![Alt Text](./api//images/ScreenShots/Post.png)
-![Alt Text](./api//images/ScreenShots/Read(update,delete)page.png)
+
+
 ![Alt Text](./api//images/ScreenShots/Register.png)
 ![Alt Text](./api//images/ScreenShots/update.png)
 
-## Authors
+## Author
 - Eyob Kefale
-- Eyader Tsehayu
-- Biruk Birhanu
+
