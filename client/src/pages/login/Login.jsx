@@ -13,7 +13,7 @@ export default function Login() {
     e.preventDefault();
     dispatch({ type: "LOGIN_START" });
     try {
-      const res = await axios.post("/auth/login", {
+      const res = await axios.post("https://blog-post-alx-api.vercel.app/auth/login", {
         userName: userRef.current.value,
         password: passwordRef.current.value,
       });
