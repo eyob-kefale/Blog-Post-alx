@@ -16,7 +16,7 @@ app.use(express.json());
 app.use("/images",express.static(path.join(__dirname,"/images")));
 
 
-/ Connect to MongoDB using the provided URL from the environment variables
+// Connect to MongoDB using the provided URL from the environment variables
 mongoose.connect(process.env.MONGO_URL,
     { useNewUrlParser: true ,
     // useFindAndModify:true
