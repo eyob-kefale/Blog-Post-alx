@@ -8,13 +8,20 @@ const categoryRoute = require("./routes/categories");
 const userRoute = require("./routes/users");
 const multer=require("multer");
 const path=require("path");
+const cors=require("cors")
 
 dotenv.config();
 // Middleware to parse incoming JSON requests
 app.use(express.json());
 // Middleware to serve static files (e.g., images) from the '/images' route
 app.use("/images",express.static(path.join(__dirname,"/images")));
-
+app.use(cors(
+  {
+    origin:[],
+    methods:["POST","GET"],
+    credentials:true,
+  }
+))
 
 // Connect to MongoDB using the provided URL from the environment variables
 mongoose.connect(process.env.MONGO_URL,
