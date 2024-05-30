@@ -13,7 +13,7 @@
   background-color: #86B6F6;
 }
 .cont{
-  height: 50%;
+  height: 60%;
   width: 20%;
   background-color: aliceblue;
   display: flex;
@@ -28,9 +28,10 @@
 }
 
 .registerForm {
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
+  height: "80%";
 }
 
 .registerForm > label {
@@ -55,7 +56,7 @@
 
 .registerLoginButton {
   position: absolute;
-  top: 60px;
+  top: 50px;
   right: 20px;
   background-color: lightcoral;
   cursor: pointer;

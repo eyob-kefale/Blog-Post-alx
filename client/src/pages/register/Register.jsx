@@ -13,7 +13,7 @@ const Register=() =>{
     e.preventDefault();
     setError(false);
     try {
-      const res = await axios.post("https://blog-post-alx-api.vercel.app/register", {
+      const res = await axios.post("/auth/register", {
         userName,
         email,
         password,
