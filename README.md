@@ -1,4 +1,4 @@
-# Blog Post for alx project
+# Blog Post for alx final project
 
 ## Overview
 
