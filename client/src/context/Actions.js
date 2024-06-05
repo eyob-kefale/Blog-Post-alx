@@ -27,3 +27,7 @@ export const UpdateSuccess = (user) => ({
 export const UpdateFailure = () => ({
   type: "UPDATE_FAILURE",
 });
+
+// export const DeleteStart = (userCredentials) => ({
+//   type: "DELETE_START",
+// });

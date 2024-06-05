@@ -54,12 +54,7 @@ const Register=() =>{
         </button>
       </form>
       </div>
-      {/* <button className="registerLoginButton">
-        <Link className="link" to="/login">
-          Login
-        </Link>
-
-      </button> */}
+     
       {error && <span style={{color:"red", marginTop:"10px"}}>Something went wrong!</span>}
     </div>
   );

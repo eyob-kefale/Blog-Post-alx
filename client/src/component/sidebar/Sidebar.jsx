@@ -17,7 +17,7 @@ export default function Sidebar() {
   //     setCats(res.data);
   //   };
   //   getCats();
-  // }, []);
+  // }, [cats]);
 
   useEffect(() => {
     const getCats = async () => {

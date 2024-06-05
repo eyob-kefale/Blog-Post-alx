@@ -37,7 +37,7 @@ export default function Settings() {
       const res = await axios.put("/users/" + user._id, updatedUser);
       setSuccess(true);
       dispatch({ type: "UPDATE_SUCCESS", payload: res.data });
-      // window.location.reload();
+      
       window.location.replace("/");
     } catch (err) {
       dispatch({ type: "UPDATE_FAILURE" });
@@ -49,7 +49,7 @@ export default function Settings() {
       <div className="settingsWrapper">
         <div className="settingsTitle">
           <span className="settingsUpdateTitle">Update Your Account</span>
-          {/* <span className="settingsDeleteTitle">Delete Account</span> */}
+         
         </div>
         <form className="settingsForm" onSubmit={handleSubmit}>
           <label>Profile Picture</label>
@@ -99,7 +99,7 @@ export default function Settings() {
         </form>
       </div>
       </div>
-      {/* <Sidebar /> */}
+   
     </div>
   );
 }

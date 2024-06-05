@@ -6,6 +6,7 @@ export default function Posts({ posts }) {
     <div className="posts">
       {posts.map((p) => (
         <Post post={p} />
+        // <Post key={p._id} post={p} />
       ))}
     </div>
   );

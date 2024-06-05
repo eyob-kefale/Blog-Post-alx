@@ -7,6 +7,7 @@ export default function Single() {
     <div className="single">
       <SinglePost/>
       <Sidebar />
+      {/*  */}
     </div>
   );
 }

@@ -4,3 +4,15 @@
     flex-wrap: wrap;
     margin: 20px;
 }
+/* .postDesc {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #444;
+    line-height: 24px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  } */

@@ -11,26 +11,25 @@ import { useContext } from "react";
 import { Context } from "./context/Context";
 
 function App() {
-  // Access user information from the context
+ 
   const {user}=useContext(Context)
  return (
     <div className="App">
-    {/* Define routes using React Router's <Routes> and <Route> components */}
+    
       <Routes>
         <Route element={<TopBar/>}>
   
-          {/* Different routes based on the URL path */}
-          {/* If the user is logged in, show Home page, otherwise, show Login page */}
+         
       <Route path="/login" element={user ?<Home/>:<Login/>} />
-          {/* If the user is logged in, show Home page, otherwise, show Login page */}
+        
           <Route path="/" element={user ?<Home/>:<Login />} />
-        {/* If the user is logged in, show Write page, otherwise, show Login page */}
+      
           <Route path="/write" element={user ?<Write/>:<Login/>} />
-        {/* Show Single post page */}
+       
           <Route path="/post/:postId" element={<Single />} />
-         {/* If the user is logged in, show Home page, otherwise, show Register page */}
+         
           <Route path="/register" element={user ?<Home/>:<Register/>}/>
-             {/* If the user is logged in, show Settings page, otherwise, show Login page */}
+            
           <Route path="/settings" element={user ?<Settings/>:<Login/>} />
 
         </Route>
